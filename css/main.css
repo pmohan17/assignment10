@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+header{
+    text-align: center;
+    margin:0;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+body {
+    margin: 0;
+    padding: 25px;
+    background:#98F5FF;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+img {
+    max-width: 100%;
+    align-items: center;
+    display: block;
+  }
+p{
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 25px;
+  justify-content: space-between;
+  max-width: 600px;
+
+}
+#aboutLegumes{
+  background:#D2B48C;
+  font-size: 25px;
+
+}
+#aboutSnacks{
+  background:#77dd77;
+  font-size: 25px;
+}
+#aboutVegetables{
+  background:#DFC12A;
+  font-size: 25px;
+}
+
+#aboutMeal{
+  background:#FFA500;
+  font-size: 25px;
+}
